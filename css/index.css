@@ -1,0 +1,887 @@
+
+.adven1i3{
+display:none;
+padding-top:46%;
+ }
+.adven1i2{
+padding-top:310px;
+ }
+.adven1i:hover .adven1i3{
+display:block;
+transition: 0.3s;
+ }
+.adven1i:hover .adven1i2{
+display:none;
+transition: 0.3s;
+ }
+
+.trip_1i .button{
+margin-top:10px;
+ }
+.trip_1in{
+margin-top:32px;
+ }
+/*********************adven_end****************/
+
+
+/*********************disc****************/
+.disc_1r img{
+border-radius:50% 0 0 50%;
+ }
+/*********************disc_end****************/
+
+
+@media screen and (max-width : 767px){
+.center_h{
+padding-top:30px;
+ }
+.desti2i{
+margin-top:8px;
+margin-bottom:8px;
+ }
+.trip_1i{
+text-align:center;
+margin-top:5px;
+margin-bottom:5px;
+ }
+.trip_1iir{
+margin-top:10px;
+ }
+#trip{
+padding-left:0!important;
+padding-right:0!important;
+ }
+#adven{
+padding-left:0!important;
+padding-right:0!important;
+ }
+.adven1i{
+margin-top:8px;
+margin-bottom:8px;
+ }
+.adven1i2 {
+padding-top: 280px;
+}
+
+.blog_h1rir{
+text-align:center;
+margin-top:15px;
+ }
+.blog_h1rir p{
+text-align:left;
+ }
+.blog_h1r{
+margin-top:15px;
+ }
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+#trip{
+padding-left:0!important;
+padding-right:0!important;
+ }
+#adven{
+padding-left:0!important;
+padding-right:0!important;
+ }
+.desti2i {
+padding:40px 20px!important;
+ }
+.trip_1{
+padding-left:10px!important;
+padding-right:10px!important;
+ }
+.trip_1iil span{
+font-size:18px!important;
+ }
+
+.adven1i2{
+padding-top:390px;
+ }
+.adven1i {
+margin-top:10px;
+margin-bottom:10px;
+ }
+.blog_h1rir h5{
+font-size:16px;
+ }
+.blog_h1rir p{
+font-size:14px;
+ }
+.desti2i h5{
+font-size:12px;
+ }
+.desti2i{
+padding:30px 15px!important;
+ }
+.desti1l h1{
+font-size:26px;
+ }
+.trip_1in{
+margin-top:28px;
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.trip_1{
+padding-left:10px!important;
+padding-right:10px!important;
+ }
+.trip_1iil span{
+font-size:18px!important;
+ }
+.adven1i1 img{
+min-height:420px;
+ }
+.desti2i h5{
+font-size:14px;
+ }
+.desti2i{
+padding:30px 15px!important;
+ }
+.desti1l h1{
+font-size:26px;
+ }
+.trip_1in{
+margin-top:28px;
+ }
+ }
+
+@media (min-width:1201px) and (max-width:1360px) {
+.adven1i1 img{
+min-height:420px;
+ }
+.desti2i h5{
+font-size:16px;
+ }
+.desti2i{
+padding:30px 15px!important;
+ }
+ }
+
+ #start {
+   display: inline-block;
+   padding: 12px 20px 12px 20px;
+   background-color: #FE5000;
+   color:white;
+   cursor: pointer;
+   border: none;
+
+ }
+
+ #start:hover {
+     background-color: #6197B0;
+}
+
+.nav-link:hover {
+         background-color: #6197B0;
+         color: white !important;
+       }
+
+.nav-link.flag:hover {
+        background-color: white;
+
+              }
+
+.nav-link.flag1:hover {
+        background-color: white;
+              }
+
+              .home-section {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Define altura completa da viewport */
+            z-index: 0;
+            overflow: hidden;
+            overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+          }
+
+
+
+
+
+          .text_center {
+              letter-spacing: 12px;
+              font-size: 38px;
+              font-family: "Roboto Condensed", sans-serif;
+              text-transform: uppercase;
+              color: white;
+              text-align: center;
+          }
+
+          @media (max-width: 991px) {
+              .text_center {
+                  font-size: 38px;
+
+              }
+          }
+          .home-section {
+              position: relative;
+              width: 100%;
+              height: 100vh;
+              z-index: 0;
+              overflow: hidden;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+              align-items: center;
+          }
+
+          /* Degradê e sombra */
+          .home-section .overlay {
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+              z-index: 1;
+              pointer-events: none;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+          }
+
+          .home-full-height {
+              height: 370px;
+          }
+
+          .background-image {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              z-index: 0;
+              filter: brightness(0.9);
+          }
+
+          .text_center {
+              position: relative;
+              z-index: 2;
+              font-size: 2em;
+              color: #fff;
+              text-align: center;
+              margin-bottom: 20px;
+          }
+
+          .button-container {
+              position: relative;
+              z-index: 2;
+              margin-bottom: 30px;
+          }
+
+          .homebutton {
+              padding: 10px 20px 10px 20px;
+              margin: 0 10px;
+              border: none;
+              color: white;
+              cursor: pointer;
+          }
+
+.homebutton:hover{
+   filter: brightness(0.8);
+}
+
+          .orange {
+              background-color: #FE5000;
+          }
+
+          .blue {
+              background-color: #6197B0;
+          }
+
+#texto_centrado {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 45px;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: #FE5000;
+}
+
+.main {
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+
+
+/* Ensure the container is centered */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.features-item {
+  text-align: center; /* Center the text within each item */
+  margin: 20px 0; /* Add some margin for spacing */
+}
+
+/* Ensure the images are responsive */
+.features-icon img {
+  max-width: 100%;
+  height: auto;
+}
+
+.features-title {
+  font-size: 1.3em; /* Adjust font size as needed */
+  margin: 10px 0;
+}
+
+.features-item p {
+  margin: 5px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .col-md-4, .col-sm-6, .col-xs-12 {
+    width: 100%; /* Make columns full width on small screens */
+  }
+}
+
+.features-title,
+.font-alt{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #111;
+  margin: 16px 0 15px;
+}
+
+.client-logo {
+  opacity: .5;
+}
+
+.client-logo:hover {
+  opacity: 1;
+}
+
+.client-logo,
+.gallery-caption,
+.gallery-image:after,
+.gallery-image img,
+.price-table,
+.team-detail,
+.team-image:after,
+.work-caption,
+.work-image > img,
+.work-image:after,
+.post-thumbnail,
+.post-video,
+.post-images-slider {
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.module,
+.module-small {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+/* Ensure the section takes full width and has a black background */
+.module-small.bg-dark.p-0 {
+  width: 100%;
+  background-color: #000;
+  padding: 0;
+  margin: 0;
+}
+
+/* Ensure the row and owl-carousel take full width */
+.client {
+  width: 100%;
+}
+
+.owl-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 0 20px;
+}
+
+.client-logo img {
+  max-height: 80px;
+  display: block;
+}
+
+.texto_sobre {
+  position: relative;
+  width: 100%;
+  padding-right: 20px;
+  padding-top:20px;
+  text-align: justify;
+  padding-left: 20px;
+ padding-bottom: 5px;
+}
+
+@media (min-width: 576px) {
+  .texto_sobre {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.side-image {
+  background-size: cover;
+
+  background-position: center center;
+  height: 100%;
+  min-height: 400px; /* Adjust the height as needed */
+}
+
+.side-image-text {
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+#treino {
+ text-align: center;
+ height: 100%;
+ margin: 0 auto;
+ font-size: 25px;
+ color: black;
+ text-transform: uppercase;
+}
+
+.price-table {
+  background: #fff;
+  border: 2px solid #6197B0;
+  padding: 55px 60px;
+  margin: 15px 0 30px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-table:hover {
+  border-color: ##6197B0;
+}
+
+.price-table.best {
+  margin: 0 0 30px;
+}
+
+.price-table .small {
+  margin: 0;
+}
+
+.borderline {
+  position: relative;
+  background: #eaeaea;
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin: 20px 0 15px;
+}
+
+.borderline:before {
+  position: absolute;
+  background: #eaeaea;
+  content: "";
+  bottom: -7px;
+  right: 50%;
+  height: 14px;
+  width: 14px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  margin-right: -7px;
+}
+
+.borderline:after {
+  position: absolute;
+  background: #fff;
+  content: "";
+  bottom: -5px;
+  right: 50%;
+  height: 16px;
+  width: 16px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  margin-right: -8px;
+}
+
+.price-table h4 {
+  color: #111;
+  margin: 0;
+}
+
+.price-table p.price {
+  font-size: 40px;
+  color: #111;
+  padding: 0;
+  margin: 0 -10px 0 0;
+}
+
+.price-table p.price span {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 10px;
+  padding-top: 25px;
+}
+
+.price-details {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 23px;
+}
+
+.price-details li {
+  padding: 7px 0;
+}
+
+.price-details li > span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.client-logo,
+.gallery-caption,
+.gallery-image:after,
+.gallery-image img,
+.price-table,
+.team-detail,
+.team-image:after,
+.work-caption,
+.work-image > img,
+.work-image:after,
+.post-thumbnail,
+.post-video,
+.post-images-slider {
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.module {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.multi-columns-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.price-table {
+  background: #fff;
+  border: 2px solid #6197B0;
+  padding: 50px 70px;
+  margin: 15px 0 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.button-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Espaço entre os botões */
+}
+
+.buybutton, .buybutton2 {
+  width: 100%; /* Ocupa o tamanho total do contêiner */
+  padding: 5px;
+  background-color: #333; /* Cor de fundo padrão */
+  color: #fff; /* Cor do texto */
+  font-size: 16px;
+  cursor: pointer; /* Cursor de pointer para indicar que é clicável */
+  transition: background-color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+
+.buybutton2 {
+  background-color: #6197B0;
+  color: white;
+  border: 1px solid black;/* Cor de fundo específica para o segundo botão */
+}
+
+.buybutton2:hover {
+   filter: brightness(0.8);
+}
+.buybutton:hover {
+   filter: brightness(0.8);
+}
+
+.buybutton {
+  background-color: #FE5000;
+  border: 1px solid black;/* Cor de fundo específica para o segundo botão */
+}
+
+/* Estilização da seção */
+.payment-section {
+  width: 100%;
+  height: 40px; /* Altura da seção */
+  background-color: #000; /* Fundo preto */
+  display: flex;
+  align-items: center; /* Alinha verticalmente os itens no centro */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  overflow-x: auto; /* Adiciona barra de rolagem horizontal se necessário */
+}
+
+/* Estilização do container dos pagamentos */
+.payment-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaço entre os itens */
+}
+
+/* Estilização das imagens */
+.payment-container img {
+  max-height: 35px; /* Altura máxima das imagens */
+  width: auto; /* Mantém a proporção das imagens */
+}
+
+/* Estilização do texto */
+.payment-text {
+  color: #fff; /* Cor do texto */
+  margin: 0 10px; /* Margem para espaçar o texto das imagens */
+}
+
+/* Estilo do título */
+.section-heading {
+  color: #000; /* Cor preta para o título */
+  text-align: center; /* Centraliza o título */
+  margin-bottom: 20px; /* Espaço abaixo do título */
+  margin-top: 20px;
+}
+
+/* Estilo do contêiner da lista de benefícios */
+.benefits-container {
+  padding: 0 100px; /* Padding das laterais ajustado para 100px */
+  background-color: #f9f9f9; /* Fundo claro para contraste com o texto */
+}
+
+/* Estilo da lista de benefícios */
+.benefits-list {
+  list-style-type: disc; /* Tipo de marcador */
+  color: #000; /* Cor preta para o texto */
+  font-size: 16px; /* Tamanho da fonte */
+  line-height: 1.5; /* Altura da linha para melhor legibilidade */
+  padding-left: 40px; /* Espaço à esquerda da lista para alinhar os pontos */
+  margin-left: 0; /* Remove margem padrão da lista */
+  margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo dos itens da lista */
+.benefits-list li {
+  position: relative; /* Necessário para posicionar o marcador */
+  padding-left: 0; /* Remove padding adicional à esquerda do texto */
+  margin-bottom: 10px; /* Espaço entre os itens da lista */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Ajusta o posicionamento dos marcadores (bullets) */
+.benefits-list li::marker {
+  color: #000; /* Cor preta para o marcador */
+  font-size: 16px; /* Tamanho do marcador */
+}
+
+/* Popup container */
+.popup {
+    display: none; /* Initially hidden */
+    position: fixed; /* Fixed position to cover the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    z-index: 1000; /* Ensure popup is on top of other content */
+}
+
+/* Popup content */
+.popup-content {
+    position: relative; /* Needed for positioning the button */
+    background-color: #fff; /* Background color of the popup */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the popup */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Popup image */
+.popup-image {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 100px;
+    height: 100px;
+}
+
+/* Popup button */
+.popup-button {
+    display: block;
+    margin: 10px auto 0; /* Margin at the bottom, centered */
+    background-color: orange; /* Button color */
+    color: #fff; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+/* Ensure the section starts immediately with no padding or margin */
+#equipa {
+  background-color: #000; /* Set background to black */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  color: #fff; /* Ensure text color is white */
+}
+
+/* Ensure the container takes full width */
+#equipa .container {
+  width: 100%; /* Full width of the page */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+/* Style for the section heading to ensure it's centered and spans full width */
+.section-heading {
+  margin: 0;
+  padding: 20px 0; /* Padding to separate the heading from the top of the page */
+  color: #fff; /* Ensure the text color is white */
+  text-align: center; /* Center the heading text */
+  width: 100%; /* Ensure the heading takes full width */
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Ensure the section heading spans the full width */
+#equipa .row {
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+}
+
+.team-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 10px; /* Add padding to the sides */
+  margin: 0; /* Remove margin */
+  width: 100%; /* Full width of the page */
+}
+
+/* Each team-item should take up to 25% of the width minus the gap */
+.team-item {
+  flex: 1 1 calc(25% - 10px); /* Ensures four items per row with spacing */
+  max-width: calc(25% - 10px);
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Adjust the team-image to maintain aspect ratio */
+.team-image {
+  position: relative;
+  width: 100%;
+  max-height: 261px; /* Set maximum height for images */
+  margin-bottom: 10px; /* Add space between the image and text */
+}
+
+.team-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.team-detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35); /* Reduce opacity of the background */
+  color: #fff; /* Set text color to white */
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: opacity 0.3s ease;
+}
+
+.team-item:hover .team-detail {
+  opacity: 1;
+}
+
+.team-item:hover img {
+  opacity: 0.7;
+}
+
+.team-descr {
+  margin-top: 10px;
+}
+
+.team-name {
+  font-weight: bold;
+  color: #fff; /* Ensure the text color is white */
+}
+
+.team-role {
+  color: #999;
+}
+
+.team-social a {
+  color: #f90;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.team-social a:hover {
+  color: #fff;
+}
+
+/* Media query to ensure responsiveness on smaller screens */
+@media (max-width: 768px) {
+  .team-item {
+    flex: 1 1 calc(50% - 10px); /* Two items per row on smaller screens */
+    max-width: calc(50% - 10px);
+  }
+
+  .team-image {
+    max-height: 221px; /* Ensure images maintain the max height */
+  }
+}
+
+@media (max-width: 480px) {
+  .team-item {
+    flex: 1 1 100%; /* One item per row on very small screens */
+    max-width: 100%;
+  }
+
+  .team-image {
+    max-height: 221px; /* Ensure images maintain the max height */
+  }
+}
