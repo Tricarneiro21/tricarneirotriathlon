@@ -1,0 +1,924 @@
+<!-- DEFENIR O TAMANHO MAXIMO DE LARGURA QUE A PAGINA PODE TER
+exemplo de form: https://www.triumphendurancecoaching.com/contact.html
+meter icon com resources e sub menu com aticles e calculator https://www.myprocoach.net/calculators/
+gosto do amarelo https://www.t3-triathlon.com/team-highlights/
+inserir testimunhos
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Miguel Carneiro is a Portuguese ultra-distance triathlete and military man representing GRDC MDN and BEAT YOUR LIMIT. Competing in national and international events since 2012, he specializes in Ironman and Ultraman distances. Miguel offers fully customized training plans for triathlons, running, and cycling, tailored to individual goals and levels. Benefit from personal coaching, detailed analysis, and flexible adjustments to help you achieve your athletic potential.">
+  <meta name="keywords" content="#Triathlon #Ironman #Ultraman #UltraRunning #Cycling #PersonalTraining #CustomizedPlans #AthleteCoaching #EnduranceSports #FitnessGoals #SportsTraining #PerformanceEnhancement #AthleteSupport #GRDCMDN #BeatYourLimit">
+
+	<title>TRIcarneiro - Triathlon coaching</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	<link href="css/bootstrap.m.css" rel="stylesheet" >
+	<link href="css/font-awesome.min.css" rel="stylesheet" >
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/iconsite.png">
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link rel="stylesheet" href="path/to/owl.carousel.min.css">
+<link rel="stylesheet" href="path/to/owl.theme.default.min.css">
+<script src="path/to/jquery.min.js"></script>
+<script src="path/to/owl.carousel.min.js"></script>
+
+	<style>
+	.modal-dialog {
+		  width: 640px;
+		  height:560px !important;
+		}
+
+	.modal-content {
+
+		/* 80% of window height */
+		height: 60%;
+		background-color:#BBD6EC;
+	}
+
+	.modal-header {
+		background-color: #337AB7;
+		padding:16px 16px;
+		color:#FFF;
+		border-bottom:2px dashed #337AB7;
+	 }
+	.modal-footer {
+
+		background-color: #337AB7;
+		padding:16px 16px;
+		color:#FFF;
+		border-bottom:2px dashed #337AB7;
+	 }
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.divfix [class*="fa fa-"] {
+	margin: 0px 0px 0px 0px;
+	position: fixed;
+	z-index: 3000;
+	border-radius: 90px;
+	width: 40px;
+	height: 40px;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	margin-left: 0px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Modulo do menu -->
+<section id="header">
+<nav class="navbar navbar-expand-md navbar-light shadow_box px-3" id="navbar_sticky">
+  <div class="container-fluid">
+		<a class="col_voilet p-0 navbar-brand fw-bold" href="index.html">
+		  <img src="img/logotricarneiro.png" alt="Tricarneiro Logo" style="height: 10%; width: auto; margin-right: 10px;">
+		  <br> <span style="color:black; margin: 40%;" class="font_10">TRIATHLON COACH</span>
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   <ul class="navbar-nav mb-0 ms-auto nav_left">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+		<li class="nav-item">
+          <a class="nav-link" href="about.html">Media </a>
+        </li>
+
+				<li class="nav-item">
+		          <a class="nav-link" href="about.html">Sponsors </a>
+		        </li>
+
+						<li class="nav-item">
+				          <a class="nav-link" href="about.html">Team </a>
+				        </li>
+
+								<li class="nav-item">
+											<a class="nav-link" href="about.html">Coaching </a>
+										</li>
+
+								<li class="nav-item">
+						          <a class="nav-link" href="about.html">Contact </a>
+						        </li>
+
+      </ul>
+      <ul class="coluna">
+				<li class="nav-item">
+				  <a class="nav-link flag" href="#">
+				    <img src="img/flag1.png" alt="English" style="width: 60%; height: 60%;">
+				  </a>
+				</li>
+
+				<li class="nav-item">
+				  <a class="nav-link flag1" href="#">
+				    <img src="img/flag2.png" alt="Portuguese" style="width: 60%; height: 60%;">
+				  </a>
+				</li>
+				<li>
+	<button id="start" type="button" name="button">GET STARTED NOW</button>
+</li>
+      </ul>
+
+
+
+
+    </div>
+  </div>
+</nav>
+</section>
+
+<!-- Modulo da imagem topo -->
+<section class="home-section home-full-height bg-dark-30" id="home">
+    <div class="overlay"></div>
+    <img src="img/intrologo.png" alt="Intro Logo" class="background-image">
+    <div class="text_center">PUSHING THE LIMITS</div>
+    <div class="button-container">
+        <button class="homebutton orange" type="button" name="button">GET STARTED NOW</button>
+        <button class="homebutton blue" type="button" name="button">GET IN TOUCH</button>
+    </div>
+</section>
+
+<section>
+	<h2 id="texto_centrado" >Are you ready to achieve your IRONMAN triathlon goals<br>with a fully customized and structured training plan?</h2>
+</section>
+
+<!-- modulo das provas -->
+<div class="main">
+			<section>
+				<BR/>
+					<div class="row multi-columns-row">
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="features-item">
+								<div class="features-icon"><span> <img src="img/logorace6.png"></span></div>
+								<h3 class="features-title font-alt">DECA Ultra Triathlon</h3>
+								<h2 class="features-title font-alt">06-16 OCT 2019 LEON, MEXICO<br><br>38KM SWIM / 1800KM BIKE / 422KM RUN<br>256h47m28s</h2>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="features-item">
+								<div class="features-icon"><span> <img src="img/logorace5.png"></span></div>
+								<h3 class="features-title font-alt">Double ENDUROMAN</h3>
+								 <h2 class="features-title font-alt">12-13 MAI 2018 New Forest, UK<br><br>7,6KM SWIM / 360KM BIKE / 84,4KM RUN<br>34h19m17s</h2>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="features-item">
+								<div class="features-icon"><span> <img src="img/logorace4.png"></span></div>
+								<h3 class="features-title font-alt">Triple Ultra Triathlon</h3>
+								<h2 class="features-title font-alt">28-30 JUL 2017 LENSAHN, GERMANY<br><br>11,4KM SWIM / 540KM BIKE / 126,6KM RUN<br>51h47m36s</h2>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="features-item">
+								<div class="features-icon"><span> <img src="img/logorace3.png"></span></div>
+								<h3 class="features-title font-alt">Double Ultra Triathlon</h3>
+								 <h2 class="features-title font-alt">26-28 AGO 2016 PANEVEZYS, LITUANIA<br><br>7,6KM SWIM / 360KM BIKE / 84,4KM RUN<br>27h28m25s</h2>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="features-item">
+								<div class="features-icon"><span> <img src="img/logorace2.png"></span></div>
+								<h3 class="features-title font-alt">ULTRAMAN UMUK</h3>
+								<h2 class="features-title font-alt">6-8 SET 2014 WALES, UK<br><br>10KM SWIM / 420,2KM BIKE / 84,4KM RUN<br>28h48m01s</h2>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="features-item">
+								<div class="features-icon"><span> <img src="img/logorace1.png"></span></div>
+								<h3 class="features-title font-alt">IBERMAN</h3>
+								<h2 class="features-title font-alt">05 OCT 2013 ISLA CRISTINA, SPAIN<br><br>3,8KM SWIM / 180KM BIKE / 42,2KM RUN<br>12h23m52s</h2>
+							</div>
+						</div>
+			</section>
+
+
+<!-- modulo da quote -->
+<section>
+    <h2 id="texto_centrado">
+        I <span class="highlight">SWIM</span> WHAT MANY CAN'T RUN,<br>
+        I <span class="highlight">run</span> WHAT MANY wish to cycle,<br>
+        I <span class="highlight">cycle</span> what many find tiring to drive.
+    </h2>
+</section>
+
+<!-- Modulo fita dos patrocinios -->
+<section style="background-color: black; padding: 0;">
+  <div class="container">
+    <div class="row client">
+      <div class="owl-carousel text-center">
+        <div class="owl-item">
+          <div class="client-logo"><img src="img/client-logo-1.png" alt="Patrocinador"/></div>
+        </div>
+        <div class="owl-item">
+          <div class="client-logo"><img src="img/client-logo-2.png" alt="Patrocinador"/></div>
+        </div>
+        <div class="owl-item">
+          <div class="client-logo"><img src="img/client-logo-3.png" alt="Patrocinador"/></div>
+        </div>
+        <div class="owl-item">
+          <div class="client-logo"><img src="img/client-logo-4.png" alt="Patrocinador"/></div>
+        </div>
+        <div class="owl-item">
+          <div class="client-logo"><img src="img/client-logo-5.png" alt="Patrocinador"/></div>
+        </div>
+        <div class="owl-item">
+          <div class="client-logo"><img src="img/client-logo-6.png" alt="Patrocinador"/></div>
+        </div>
+        <div class="owl-item">
+          <div class="client-logo"><img src="img/client-logo-7.png" alt="Patrocinador"/></div>
+        </div>
+        <div class="owl-item">
+          <div class="client-logo"><img src="img/client-logo-8.png" alt="Patrocinador"/></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+		<!-- Modulo dos icones flutuantes das redes sociais -->
+		<section>
+		  <div style="position: fixed; top: 200px; left: 5px; z-index: 1000;">
+		    <a href="https://www.instagram.com/tricarneiro" target="_blank"
+		       class="fa fa-instagram"
+		       style="display: flex; justify-content: center; align-items: center; color: #fff; font-size: 24px; margin-bottom: 10px; text-decoration: none; width: 40px; height: 40px; border-radius: 50%; background-color: #3f729b;">
+		    </a>
+		    <a href="https://www.facebook.com/tricarneiro" target="_blank"
+		       class="fa fa-facebook"
+		       style="display: flex; justify-content: center; align-items: center; color: #fff; font-size: 24px; margin-bottom: 10px; text-decoration: none; width: 40px; height: 40px; border-radius: 50%; background-color: #3b5998;">
+		    </a>
+		    <a href="https://www.youtube.com/channel/UCXky4nPGv7BE24YhIMiuW3g" target="_blank"
+		       class="fa fa-youtube"
+		       style="display: flex; justify-content: center; align-items: center; color: #fff; font-size: 24px; margin-bottom: 10px; text-decoration: none; width: 40px; height: 40px; border-radius: 50%; background-color: #ff0000;">
+		    </a>
+		  </div>
+		</section>
+
+		<!-- Modulo do Sobre -->
+		<section class="module pt-0 pb-0" id="about">
+		  <div class="row position-relative m-0">
+		    <div class="col-xs-12 col-md-6 side-image" style="background-image: url('img/aboutprofile.png');"></div>
+		    <div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
+		      <div class="row">
+		        <div class="texto_sobre">
+		          <p>Miguel Carneiro is a portuguese ultra distance triathlete, a military man by profession and represents GRDC MDN and Association BEAT YOUR LIMIT. Has been participating in national and international events and, since 2012, has become passionate about long distances.</p>
+		          <p>In 2013 he did his first Ironman distance triathlon, in 2014 he launched himself into the great challenge of representing Portugal and finishing an Ultraman distance race that took place in Wales. On 2016 he double the ironman distance and did a Double Ultra Triathlon continuous in Lithuania and on 2017 finished the Triple Ultra Triathlon continuous in Lensahn, Germany.</p>
+		          <p>His last big challenge was the DECA ultra Triathlon continuous in Leon, Mexico in 2019. A triathlon with 38km swimming, 1800km cycling and 422km running non stop that he finished in 256h 47min 28sec, and now... more challenges are coming.</p>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</section>
+
+
+		<!-- modulo do treinador -->
+	  <section id="treino">
+	      <div>
+	          <h2>Fully customized training plans</h2>
+	          <div>Triathlon Sprint  *   Ironman  *  Ultratriathlon  *  Running  *  UltraRunning  *  Cycling</div>
+						<h2 style="padding:10px; font-size:22px; text-align: center; color: white;">
+						  <div style="background-color: black; padding: 10px;">
+						    I help you to achieve your goals
+						  </div>
+						  <div style="height: 5px;"></div>
+						  <div style="background-color: #6197B0; padding: 10px;">
+						    <b>TOP 3 reasons you need a coach</b>
+						  </div>
+						</h2>
+   </div>
+ 				<div style="text-align:center;">
+					<ol>
+						<li class="font-alt" style="font-size:30px;color:black;letter-spacing:4px;">1.Inspiration</li>
+ 			<p style="padding:0 30px;text-align: justify;" >Having a training plan keeps you motivated and inspired. Knowing exactly what to do each day will help you get out the door when it’s raining or when you feel tired. You have committed to buying and following a training plan. You just need to focus and follow it to realise the true extent of your potential</p>
+			<li class="font-alt" style="font-size:30px;color:black;letter-spacing:4px;">2. Focus</li>
+ 	<p style="padding:0 30px;text-align: justify;">With a structured triathlon training plan all you need to focus on is your training and recovery. You can leave the thinking and planning to someone else. That way you can spend more time training or with your family and friends </p>
+ 				<li class="font-alt" style="font-size:30px;color:black;letter-spacing:4px;">3. Consistency</li>
+<p style="padding:0 30px;text-align: justify;">As an athlete, you’re constantly bombarded by different opinions about training. One minute you read something in a magazine that says you should do more long runs, then someone at your local tri club suggests you ought to do more threshold workouts. These random tips come from all directions and it can be hard to know who to believe. A good coach-built training plan helps you stick to one consistent philosophy, rather than constantly chopping and changing all through the year. And consistency is what leads to great results
+</p>
+</ol>
+</div>
+
+
+<section class="module">
+  <div class="container">
+    <div class="row multi-columns-row">
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="price-table font-alt">
+          <h4 style="color:#FE5000;" ><strong>SILVER</strong></h4>
+          <p class="small">ONE TIME PAYMENT</p>
+          <div class="borderline"></div>
+          <p class="price">30€
+          <p class="small">1 SPORT/ MULTISPORT</p>
+						</p>
+						<ul class="price-details">
+							<li>Basic training plan</li>
+							<li>Swim, bike or run</li>
+							 <li>16 or 24 weeks</li>
+						</ul>
+						<div class="button-cont">
+							<button class="buybutton" type="button" name="button">GET STARTED</button>
+							<button class="buybutton2" type="button" name="button" href="https://api.whatsapp.com/send?phone=351934235239&text=I%20want%20to%20know%20more%20about%20plan%20SILVER%20">+ INFO</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 col-lg-4">
+					<div class="price-table font-alt">
+						<h4 style="color:#FE5000;" ><strong>GOLD/ELITE</strong></h4>
+						<p class="small">MONTHLY</p>
+						<div class="borderline"></div>
+						<p class="price">35/50€
+						<p class="small">1 SPORT<br>MULTISPORT</p>
+						</p>
+						<ul class="price-details">
+							<li>Professional training plan</li>
+							<li>Initial consultation</li>
+							<li>Personalized plans every week</li>
+							<li>100% adapted to athlete life</li>
+							<li>24/7 communication via Whattsapp/E-mail</li>
+							<li>No limit of ajustments</li>
+							<li>100% monitored training</li>
+							<li>Affiliate program</li>
+							<li>Season planning</li>
+						 <li>Sponsorship advice/Social media help</li>
+						 <li>Race day planning</li>
+					 </ul>
+
+					 <div class="button-cont">
+					   <button class="buybutton" type="button" name="button">GET STARTED</button>
+					   <button class="buybutton2" type="button" name="button" href="https://api.whatsapp.com/send?phone=351934235239&text=I%20want%20to%20know%20more%20about%20plan%20GOLD/ELITE%20">+ INFO</button>
+					 </div>
+
+				</div>
+	</div>
+	</div>
+</div>
+</section>
+
+<section class="payment-section">
+  <div class="payment-container">
+    <img src="img/bnb.png" alt="BNB">
+    <img src="img/btc.png" alt="BTC">
+    <img src="img/eth.png" alt="ETH">
+    <b class="payment-text">DIGITAL PAYMENTS ACCEPTED</b>
+    <img src="img/usd.png" alt="USD">
+    <img src="img/ada.png" alt="ADA">
+    <img src="img/shiba.png" alt="SHIBA">
+  </div>
+</section>
+
+
+<h2 class="section-heading"><b>Benefits</b></h2>
+<div class="benefits-container">
+<ul class="benefits-list">
+<li>Fully customized training plans updated weekly based on coach-athlete communication and feedback</li>
+<li>Every week you'll have a chance to talk with me about training, race strategy, and gear choices so you can show up on race day completely confident in your fitness and plan</li>
+<li>Flexible, structured training for any level and goal</li>
+<li>Research-backed plans for any experience level that fit around your lifestyle</li>
+<li>I will analyze your key workouts to make sure you're completing your intervals effectively, and provide feedback on what to improve and how your fitness is progressing</li>
+<li>Premium support and mentoring for every aspect of your journey</li>
+<li>Proper application of workout volume and intensity decreases injuries and increases performance</li>
+<li>Accountability! Being accountable to me equals more workouts completed and higher performance levels</li>
+<li>Initial consultation meeting(s) to discuss your background and goals</li>
+<li>Assessments for swim, bike, run, and strength conditioning</li>
+<li>Unlimited interactions and questions via email and phone</li>
+<li>Race selection and season planning assistance</li>
+<li>Race day preparation and race goals planning discussions</li>
+<li id="trigger" >Post-race reviews that include suggestions for further optimization in future races</li>
+</ul>
+</div>
+
+<!-- Popup structure -->
+	 <div id="popup" class="popup">
+			 <div class="popup-content">
+					 <img src="path/to/your/image.jpg" alt="Popup Image" class="popup-image">
+					 <button class="popup-button">JOIN</button>
+			 </div>
+	 </div>
+
+	<h2 class="module-title bg-dark font-alt">
+
+<!-- Modulo da equipa -->
+<section class="module" id="equipa">
+  <div style="padding:15px;" class="container">
+    <div class="row">
+      <h2 class="section-heading"><b>Meet our team</b></h2>
+    </div>
+    <div class="row team-row">
+      <div class="team-item col-sm-6 col-md-3">
+        <div class="team-image">
+          <img src="img/teamluis.png" alt="Luis Melato">
+          <div class="team-detail">
+            <p class="font-serif">Deca ultra Triathlon<br>Double Enduroman<br>Triple Ultra Triathlon<br>Double Ultra Continous</p>
+            <div class="team-social">
+              <a href="https://www.instagram.com/luigi_52_/" target="_blank"><i class="fa fa-photo fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-descr font-alt">
+          <div class="team-name">Luis Melato</div>
+          <div class="team-role">Assistance</div>
+        </div>
+      </div>
+      <div class="team-item col-sm-6 col-md-3">
+        <div class="team-image">
+          <img src="img/teamrosa.png" alt="Rosa Estevão">
+          <div class="team-detail">
+            <p class="font-serif">Deca ultra Triathlon<br>Double Enduroman<br>Triple Ultra Triathlon<br>Double Ultra Continous</p>
+            <div class="team-social">
+              <a href="https://www.facebook.com/rosa.estevao.79" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-descr font-alt">
+          <div class="team-name">Rosa Estevão</div>
+          <div class="team-role">Assistance</div>
+        </div>
+      </div>
+      <div class="team-item col-sm-6 col-md-3">
+        <div class="team-image">
+          <img src="img/teamvasco.png" alt="Vasco">
+          <div class="team-detail">
+            <p class="font-serif">Deca ultra Triathlon<br>Double Enduroman<br>Triple Ultra Triathlon<br>Double Ultra Continous<br>Ultraman<br>Iberman</p>
+            <div class="team-social">
+              <a href="https://www.facebook.com/lojaciclistica" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+              <a href="https://www.instagram.com/lojaciclistica" target="_blank"><i class="fa fa-photo fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-descr font-alt">
+          <div class="team-name">Vasco</div>
+          <div class="team-role">Mechanics</div>
+        </div>
+      </div>
+      <div class="team-item col-sm-6 col-md-3">
+        <div class="team-image">
+          <img src="img/teamana.png" alt="Ana Tavela">
+          <div class="team-detail">
+            <p class="font-serif">Deca ultra Triathlon</p>
+            <div class="team-social">
+              <a href="https://www.instagram.com/anatavela/" target="_blank"><i class="fa fa-photo fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/ana-lucia-tavela-b3234811/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+              <a href="https://www.anatavela.com" target="_blank"><i class="fa fa-globe fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-descr font-alt">
+          <div class="team-name">Ana Tavela</div>
+          <div class="team-role">Nutrition</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modulo dos media -->
+          <section id="media">
+						<h4>Spot Us in the Media</h4>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <ul class="filter font-alt" id="filters">
+                    <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
+                    <li><a class="wow fadeInUp" href="#" data-filter=".television" data-wow-delay="0.2s">Television</a></li>
+                    <li><a class="wow fadeInUp" href="#" data-filter=".magazines" data-wow-delay="0.4s">Magazines</a></li>
+                    <li><a class="wow fadeInUp" href="#" data-filter=".radio" data-wow-delay="0.6s">Radio</a></li>
+                  </ul>
+                </div>
+              </div>
+              <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
+
+                 <li class="work-item magazines"><a href="img/sportlife.pdf" target="new">
+                    <div class="work-image"><img src="img/sportlife.png" alt="Download"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">SPORT LIFE</h3>
+                      <div class="work-descr">Download to read</div>
+                    </div></a></li>
+
+                <li class="work-item magazines"><a href="img/mag1.pdf" target="new">
+                    <div class="work-image"><img src="img/mag1.png" alt="Download"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">SPORT LIFE</h3>
+                      <div class="work-descr">Download to read</div>
+                    </div></a></li>
+
+                  <li class="work-item magazines"><a href="img/prevenir.pdf" target="new">
+                    <div class="work-image"><img src="img/prevenir.png" alt="Download"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">PREVENIR</h3>
+                      <div class="work-descr">Download to read</div>
+                    </div></a>
+                  </li>
+
+                <li class="work-item magazines"><a href="img/revistavisao.pdf" target="new">
+                    <div class="work-image"><img src="img/revistavisao.png" alt="Download"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">REVISTA VISÃO</h3>
+                      <div class="work-descr">Download to read</div>
+                    </div></a></li>
+
+                <li class="work-item magazines"><a href="img/recordtriplo.pdf" target="new">
+                    <div class="work-image"><img src="img/recordtriplo.png" alt="Download"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">Jornal Record</h3>
+                      <div class="work-descr">Download to read</div>
+                    </div></a></li>
+
+                <li class="work-item magazines"><a href="img/triacores.pdf" target="new">
+                    <div class="work-image"><img src="img/triacores.png" alt="Download"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">Correio da manha</h3>
+                      <div class="work-descr">Download to read</div>
+                    </div></a></li>
+
+
+                 <li class="work-item magazines"><a href="img/recortejornal.pdf" target="new">
+                    <div class="work-image"><img src="img/recortejornal.png" alt="Download"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">CORREIO DA MANHA</h3>
+                      <div class="work-descr">Download to read</div>
+                    </div></a>
+                  </li>
+
+                    <li class="work-item television">
+            <a class="video-pop-up" onclick="corremodal('RECORD TV','wbiaR5CPbWc')"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+
+                    <div class="work-image"><img src="img/tel1.png" alt="Preview"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">Record Tv</h3>
+                      <div class="work-descr">Preview</div>
+                    </div></a></li>
+
+                                      <li class="work-item television">
+            <a class="video-pop-up" onclick="corremodal('ALÔ PORTUGAL','X2Pw2_7QFx8')"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+
+                    <div class="work-image"><img src="img/alopt.png" alt="Preview"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">ALÔ PORTUGAL</h3>
+                      <div class="work-descr">Preview</div>
+                    </div></a></li>
+
+                    <li class="work-item television">
+            <a class="video-pop-up" onclick="corremodal('Telejornal','O9GDDUrA_CU')"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+                    <div class="work-image"><img src="img/tel3.png" alt="Preview"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">RTP 1</h3>
+                      <div class="work-descr">Preview</div>
+                    </div></a></li>
+
+                            <li class="work-item television">
+            <a class="video-pop-up" onclick="corremodal('SALA VIP','VZLlfQEHsUA')"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+                    <div class="work-image"><img src="img/salavip.png" alt="Preview"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">SALA VIP</h3>
+                      <div class="work-descr">Preview</div>
+                    </div></a></li>
+
+                     <li class="work-item television">
+            <a class="video-pop-up" onclick="corremodal('OS EXTRAORDINARIOS','Nk-N3IWkHIY')"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+                    <div class="work-image"><img src="img/extraordinarios.png" alt="Preview"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">OS EXTRAORDINARIOS</h3>
+                      <div class="work-descr">Preview</div>
+                    </div></a></li>
+
+
+                                           <li class="work-item television">
+            <a class="video-pop-up" onclick="corremodal('AGORA NOS','Cr96NCNPIN0')"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+                    <div class="work-image"><img src="img/agoranos.png" alt="Preview"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">Agora Nos</h3>
+                      <div class="work-descr">Preview</div>
+                    </div></a></li>
+
+                  <li class="work-item magazines"><a href="img/recortejornal1.pdf" target="new">
+                    <div class="work-image"><img src="img/recortejornal1.png" alt="Download"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">CORREIO DA MANHA</h3>
+                      <div class="work-descr">Download to read</div>
+                    </div></a>
+                  </li>
+
+                    <li class="work-item television">
+            <a class="video-pop-up" onclick="corremodal('PODIUM','bzqhYBz64Jw')"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+
+                    <div class="work-image"><img src="img/tel2.png" alt="Preview"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">RTP AFRICA</h3>
+                      <div class="work-descr">Preview</div>
+                    </div></a></li>
+
+                                              <li class="work-item television">
+            <a class="video-pop-up" onclick="corremodal('LUSO','3FPicGG7rv0')"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+                    <div class="work-image"><img src="img/luso.png" alt="Preview"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">LUSO</h3>
+                      <div class="work-descr">Preview</div>
+                    </div></a></li>
+
+                    <li class="work-item radio">
+            <a class="video-pop-up" onclick="corremodal('Ola manha','8ykoJj98uLM')"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+                    <div class="work-image"><img src="img/radio1.png" alt="Preview"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">RADIO RENASCENÇA</h3>
+                      <div class="work-descr">Preview</div>
+                    </div></a></li>
+
+                <li class="work-item magazines"><a href="img/revista_cma.pdf" target="new">
+                    <div class="work-image"><img src="img/revista_cma.png" alt="Download"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">REVISTA ALMADA</h3>
+                      <div class="work-descr">Download to read</div>
+                    </div></a></li>
+
+              </ul>
+            </div>
+          </section>
+
+          <section>
+
+<!-- Modal dos media-->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal dos media content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" onclick='stopVideo()' data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><span id='titulo'></span></h4>
+      </div>
+      <div class="modal-body" style="height: 80vh;">
+        <span id='video'></span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" onclick='stopVideo()' class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="myModal" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+
+		 <!-- Modal dos media-->
+	 <div id="myModal" class="modal fade" role="dialog">
+	   <div class="modal-dialog">
+	     <!-- Modal dos media content-->
+	     <div class="modal-content">
+	       <div class="modal-header">
+	         <button type="button" class="close" onclick='stopVideo()' data-dismiss="modal">&times;</button>
+	         <h4 class="modal-title"><span id='titulo'></span></h4>
+	       </div>
+	       <div class="modal-body" style="height: 80vh;">
+	         <span id='video'></span>
+	       </div>
+	       <div class="modal-footer">
+	         <button type="button" onclick='stopVideo()' class="btn btn-default" data-dismiss="modal">Close</button>
+	       </div>
+	     </div>
+	   </div>
+	 </div>
+
+   </div>
+  </div>
+  </section>
+
+<!-- Modulo dos patrocinios -->
+<h4 id="apoio" style="text-align:center; margin-top:40px;"><STRONG>UMA EQUIPA DE APOIO TRANSFORMA DESAFIOS EM CONQUISTAS.</STRONG></h4>
+
+<section class="module" id="sponsors">
+  <div class="container">
+    <h2 class="section-heading"><b>Our Sponsors</b></h2>
+    <div class="row">
+      <div class="owl-carousel text-center" data-items="4" data-pagination="true" data-navigation="false">
+        <!-- First Row -->
+        <div class="owl-item">
+          <div class="col-sm-12 mb-sm-20 wow fadeInUp">
+            <div class="sponsor-item">
+              <div class="sponsor-image">
+                <img src="img/sponsoremgfa.png" alt="EMGFA" />
+              </div>
+              <div class="sponsor-descr font-alt">
+                <div class="sponsor-name">EMGFA</div>
+                <div class="sponsor-role">Estado-Maior General das Forças Armadas</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-item">
+          <div class="col-sm-12 mb-sm-20 wow fadeInUp">
+            <div class="sponsor-item">
+              <div class="sponsor-image">
+                <img src="img/sponsormarinha.png" alt="Marinha Portuguesa" />
+              </div>
+              <div class="sponsor-descr font-alt">
+                <div class="sponsor-name">Marinha Portuguesa</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-item">
+          <div class="col-sm-12 mb-sm-20 wow fadeInUp">
+            <div class="sponsor-item">
+              <div class="sponsor-image">
+                <img src="img/sponsorgrdc.png" alt="GRDC MDN" />
+              </div>
+              <div class="sponsor-descr font-alt">
+                <div class="sponsor-name">GRDC MDN</div>
+                <div class="sponsor-role">Grupo Recreativo Desportivo e Cultural do Ministerio da Defesa Nacional</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-item">
+          <div class="col-sm-12 mb-sm-20 wow fadeInUp">
+            <div class="sponsor-item">
+              <div class="sponsor-image">
+                <img src="img/sponsorciclistica.png" alt="Ciclistica" />
+              </div>
+              <div class="sponsor-descr font-alt">
+                <div class="sponsor-name">Ciclistica</div>
+                <div class="sponsor-role">Loja especializada em bicicletas</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="sponsors-row">
+          <div class="sponsor-item">
+            <div class="sponsor-image">
+              <img src="img/sponsorcrossfit.png" alt="Crossfit Almada" />
+            </div>
+            <div class="sponsor-descr font-alt">
+              <div class="sponsor-name">Crossfit Almada</div>
+              <div class="sponsor-role">Box de Crossfit</div>
+            </div>
+          </div>
+          <div class="sponsor-item">
+            <div class="sponsor-image">
+              <img src="img/sponsoriprint.png" alt="IPRINT" />
+            </div>
+            <div class="sponsor-descr font-alt">
+              <div class="sponsor-name">IPRINT</div>
+              <div class="sponsor-role">Gráfica</div>
+            </div>
+          </div>
+          <div class="sponsor-item">
+            <div class="sponsor-image">
+              <img src="img/sponsorlife.png" alt="Instituto 4 life" />
+            </div>
+            <div class="sponsor-descr font-alt">
+              <div class="sponsor-name">Instituto 4 life</div>
+              <div class="sponsor-role">Gravidez e Pós-Parto</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+var navbar_sticky = document.getElementById("navbar_sticky");
+var sticky = navbar_sticky.offsetTop;
+var navbar_height = document.querySelector('.navbar').offsetHeight;
+function myFunction() {
+  if (window.pageYOffset >= sticky + navbar_height) {
+    navbar_sticky.classList.add("sticky")
+	document.body.style.paddingTop = navbar_height + 'px';
+  } else {
+    navbar_sticky.classList.remove("sticky");
+	document.body.style.paddingTop = '0'
+  }
+}
+
+/* Trigger */
+// Get the popup and trigger elements
+const popup = document.getElementById('popup');
+const trigger = document.getElementById('trigger');
+
+// Function to check if the element is in the viewport
+function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+// Function to show the popup
+function showPopup() {
+    popup.style.display = 'flex'; // Show the popup
+}
+
+// Function to hide the popup
+function hidePopup() {
+    popup.style.display = 'none'; // Hide the popup
+}
+
+// Function to handle the delayed popup display
+function delayedPopup() {
+    setTimeout(() => {
+        if (isElementInViewport(trigger)) {
+            showPopup();
+        }
+    }, 30000); // Delay in milliseconds (30 seconds)
+}
+
+// Start the delayed popup display
+delayedPopup();
+
+// Close the popup when clicking outside of the content
+popup.addEventListener('click', function(event) {
+    if (event.target === popup) {
+        hidePopup();
+    }
+});
+
+// Função para abrir o modal e carregar o vídeo
+function corremodal(titulo, videoId) {
+  document.getElementById('titulo').innerText = titulo;
+  document.getElementById('video').innerHTML = `
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+  `;
+  $('#myModal').modal('show'); // Usa jQuery para exibir o modal
+}
+
+// Função para parar o vídeo ao fechar o modal
+function stopVideo() {
+  var iframe = document.querySelector('#myModal iframe');
+  if (iframe) {
+    iframe.src = iframe.src; // Reinicia o src para parar o vídeo
+  }
+}
+
+// Função para filtrar itens
+$(document).ready(function() {
+  $('#filters a').click(function() {
+    var filter = $(this).data('filter');
+    $('#filters a').removeClass('current');
+    $(this).addClass('current');
+
+    if (filter === '*') {
+      $('.work-item').show(); // Mostra todos os itens
+    } else {
+      $('.work-item').hide(); // Esconde todos os itens
+      $(filter).show(); // Mostra apenas os itens filtrados
+    }
+    return false; // Previne o comportamento padrão do link
+  });
+});
+
+</script>
+
+</body>
+
+</html>
