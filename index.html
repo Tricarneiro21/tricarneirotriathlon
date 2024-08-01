@@ -1,4 +1,11 @@
+<!-- DEFENIR O TAMANHO MAXIMO DE LARGURA QUE A PAGINA PODE TER
+exemplo de form: https://www.triumphendurancecoaching.com/contact.html
+meter icon com resources e sub menu com aticles e calculator https://www.myprocoach.net/calculators/
+gosto do amarelo https://www.t3-triathlon.com/team-highlights/
+inserir testimunhos
 
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +29,7 @@
 <link rel="stylesheet" href="path/to/owl.theme.default.min.css">
 <script src="path/to/jquery.min.js"></script>
 <script src="path/to/owl.carousel.min.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<style>
 	.modal-dialog {
 		  width: 640px;
@@ -98,7 +105,7 @@
   <div class="container-fluid">
 		<a class="col_voilet p-0 navbar-brand fw-bold" href="index.html">
 		  <img src="img/logotricarneiro.png" alt="Tricarneiro Logo" style="height: 10%; width: auto; margin-right: 10px;">
-		  <br> <span style="color:black; margin: 40%;" class="font_10">TRIATHLON COACH</span>
+		  <br> <span style="color:black; margin: 25%;" class="font_10">TRIATHLON COACH</span>
 		</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
@@ -117,10 +124,10 @@
 				          <a class="nav-link" href="#equipa">Team </a>
 				        </li>
 		<li class="nav-item">
-          <a class="nav-link" href="media">Media </a>
+          <a class="nav-link" href="#media">Media </a>
         </li>
 								<li class="nav-item">
-						          <a class="nav-link" href="about.html">Contact </a>
+						          <a class="nav-link" href="index.html">Contact </a>
 						        </li>
 
       </ul>
@@ -131,13 +138,13 @@
 				  </a>
 				</li>
 
-				<li class="nav-item">
+		<!--		<li class="nav-item">
 				  <a class="nav-link flag1" href="#">
 				    <img src="img/flag2.png" alt="Portuguese" style="width: 60%; height: 60%;">
 				  </a>
-				</li>
+				</li> -->
 				<li>
-	<button id="start" type="button" name="button">GET STARTED NOW</button>
+					<button id="start" type="button" name="button" onclick="window.open('https://api.whatsapp.com/send?phone=351934235239&text=I%20want%20to%20know%20more%20', '_blank');">GET STARTED NOW</button>
 </li>
       </ul>
 
@@ -155,8 +162,8 @@
     <img src="img/intrologo.png" alt="Intro Logo" class="background-image">
     <div class="text_center">PUSHING THE LIMITS</div>
     <div class="button-container">
-        <button class="homebutton orange" type="button" name="button">GET STARTED NOW</button>
-        <button class="homebutton blue" type="button" name="button">GET IN TOUCH</button>
+        <button class="homebutton orange" type="button" name="button"	onclick="window.open('https://api.whatsapp.com/send?phone=351934235239&text=I%20want%20to%20know%20more%20', '_blank');">GET STARTED NOW</button>
+        <button class="homebutton blue" type="button" name="button" onclick="window.open('https://api.whatsapp.com/send?phone=351934235239&text=I%20want%20to%20know%20more%20', '_blank');">GET IN TOUCH</button>
     </div>
 </section>
 
@@ -338,9 +345,9 @@
 							 <li>16 or 24 weeks</li>
 						</ul>
 						<div class="button-cont">
-							<button class="buybutton" type="button" name="button">GET STARTED</button>
-							<button class="buybutton2" type="button" name="button" href="https://api.whatsapp.com/send?phone=351934235239&text=I%20want%20to%20know%20more%20about%20plan%20SILVER%20">+ INFO</button>
-						</div>
+							<button class="buybutton" type="button" name="button"	onclick="window.open('https://api.whatsapp.com/send?phone=351934235239&text=I%20want%20to%20know%20more%20', '_blank');">GET STARTED</button>
+							<button class="buybutton2" type="button" name="button" onclick="window.open('https://api.whatsapp.com/send?phone=351934235239&text=I%20want%20to%20know%20more%20about%20plan%20SILVER%20', '_blank');">+ INFO</button>
+				</div>
 					</div>
 				</div>
 
@@ -367,8 +374,8 @@
 					 </ul>
 
 					 <div class="button-cont">
-					   <button class="buybutton" type="button" name="button">GET STARTED</button>
-					   <button class="buybutton2" type="button" name="button" href="https://api.whatsapp.com/send?phone=351934235239&text=I%20want%20to%20know%20more%20about%20plan%20GOLD/ELITE%20">+ INFO</button>
+					   <button class="buybutton" type="button" name="button" onclick="window.open('https://api.whatsapp.com/send?phone=351934235239&text=I%20want%20to%20know%20more%20', '_blank');">GET STARTED</button>
+					   	<button class="buybutton2" type="button" name="button" onclick="window.open('https://api.whatsapp.com/send?phone=351934235239&text=I%20want%20to%20know%20more%20about%20plan%20GOLD/ELITE%20', '_blank');">+ INFO</button>
 					 </div>
 
 				</div>
@@ -618,15 +625,16 @@
                   </li>
 
                     <li class="work-item television">
-          <a class="video-pop-up" href="https://www.youtube.com/watch?v=bzqhYBz64Jw&t=0s" target="_blank">            <div class="work-image"><img src="img/tel2.png" alt="Preview"/></div>
+          <a class="video-pop-up" href="https://www.youtube.com/watch?v=bzqhYBz64Jw&t=0s" target="_blank">
+						  <div class="work-image"><img src="img/tel2.png" alt="Preview"/></div>
                     <div class="work-caption font-alt">
                       <h3 class="work-title">RTP AFRICA</h3>
                       <div class="work-descr">Preview</div>
                     </div></a></li>
 
-                                              <li class="work-item television">
-																								<a class="video-pop-up" href="https://www.youtube.com/watch?v=aMw1JHYyiLM" target="_blank">            <div class="work-image"><img src="img/tel2.png" alt="Preview"/></div>
-																			                    <div class="work-image"><img src="img/luso.png" alt="Preview"/></div>
+                    <li class="work-item television">
+					<a class="video-pop-up" href="https://www.youtube.com/watch?v=aMw1JHYyiLM" target="_blank">
+						              <div class="work-image"><img src="img/luso.png" alt="Preview"/></div>
                     <div class="work-caption font-alt">
                       <h3 class="work-title">LUSO</h3>
                       <div class="work-descr">Preview</div>
