@@ -420,7 +420,7 @@ inserir testimunhos
 <li>Unlimited interactions and questions via email and phone</li>
 <li>Race selection and season planning assistance</li>
 <li>Race day preparation and race goals planning discussions</li>
-<li id="trigger" >Post-race reviews that include suggestions for further optimization in future races</li>
+<li>Post-race reviews that include suggestions for further optimization in future races</li>
 </ul>
 </div>
 
@@ -838,67 +838,6 @@ function myFunction() {
   }
 }
 
-/* Trigger */
-// Get the popup and trigger elements
-const popup = document.getElementById('popup');
-const trigger = document.getElementById('trigger');
-
-// Function to check if the element is in the viewport
-function isElementInViewport(el) {
-    const rect = el.getBoundingClientRect();
-    return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-}
-
-// Function to show the popup
-function showPopup() {
-    popup.style.display = 'flex'; // Show the popup
-}
-
-// Function to hide the popup
-function hidePopup() {
-    popup.style.display = 'none'; // Hide the popup
-}
-
-// Function to handle the delayed popup display
-function delayedPopup() {
-    setTimeout(() => {
-        if (isElementInViewport(trigger)) {
-            showPopup();
-        }
-    }, 30000); // Delay in milliseconds (30 seconds)
-}
-
-// Start the delayed popup display
-delayedPopup();
-
-// Close the popup when clicking outside of the content
-popup.addEventListener('click', function(event) {
-    if (event.target === popup) {
-        hidePopup();
-    }
-});
-
-// Função para abrir o modal e carregar o vídeo
-function corremodal(titulo, videoId) {
-  document.getElementById('titulo').innerText = titulo;
-  document.getElementById('video').innerHTML = `
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
-  `;
-  $('#myModal').modal('show'); // Usa jQuery para exibir o modal
-}
-
-// Função para parar o vídeo ao fechar o modal
-function stopVideo() {
-  var iframe = document.querySelector('#myModal iframe');
-  if (iframe) {
-    iframe.src = iframe.src; // Reinicia o src para parar o vídeo
-  }
-}
 
 // Função para filtrar itens
 $(document).ready(function() {
