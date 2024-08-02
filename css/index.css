@@ -490,7 +490,7 @@ align-items: center;
 }
 
 .price-table:hover {
-  border-color: ##6197B0;
+  border-color: #6197B0;
 }
 
 .price-table.best {
@@ -518,10 +518,7 @@ align-items: center;
   right: 50%;
   height: 14px;
   width: 14px;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); /* Propriedade padrão */
   margin-right: -7px;
 }
 
@@ -533,12 +530,10 @@ align-items: center;
   right: 50%;
   height: 16px;
   width: 16px;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); /* Propriedade padrão */
   margin-right: -8px;
 }
+
 
 .price-table h4 {
   color: #111;
@@ -893,4 +888,35 @@ align-items: center;
   .team-image {
     max-height: 221px; /* Ensure images maintain the max height */
   }
+}
+
+/* Estilos CSS para o módulo de pagamento */
+.payment-section {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px; /* Define a altura do módulo */
+  background-color: black;
+
+}
+
+.payment-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.payment-container img {
+  height: 100%;
+  width: auto;
+  margin: 0 5px;
+}
+
+.payment-text {
+  color: white;
+  font-size: 16px;
+  line-height: 70px; /* Ajusta o alinhamento vertical do texto */
+  margin: 0 10px;
 }
