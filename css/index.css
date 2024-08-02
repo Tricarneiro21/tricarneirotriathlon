@@ -308,6 +308,15 @@ align-items: center;
   font-size: 25px;
   text-transform: uppercase;
 }
+#texto_centrado_2 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 45px;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
 
 .highlight {
   color: #FE5000;
