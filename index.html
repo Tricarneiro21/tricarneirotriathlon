@@ -1,101 +1,61 @@
-<!-- DEFENIR O TAMANHO MAXIMO DE LARGURA QUE A PAGINA PODE TER
-exemplo de form: https://www.triumphendurancecoaching.com/contact.html
-meter icon com resources e sub menu com aticles e calculator https://www.myprocoach.net/calculators/
-gosto do amarelo https://www.t3-triathlon.com/team-highlights/
-inserir testimunhos
-
-
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Miguel Carneiro is a Portuguese ultra-distance triathlete and military man representing GRDC MDN and BEAT YOUR LIMIT. Competing in national and international events since 2012, he specializes in Ironman and Ultraman distances. Miguel offers fully customized training plans for triathlons, running, and cycling, tailored to individual goals and levels. Benefit from personal coaching, detailed analysis, and flexible adjustments to help you achieve your athletic potential.">
-  <meta name="keywords" content="#Triathlon #Ironman #Ultraman #UltraRunning #Cycling #PersonalTraining #CustomizedPlans #AthleteCoaching #EnduranceSports #FitnessGoals #SportsTraining #PerformanceEnhancement #AthleteSupport #GRDCMDN #BeatYourLimit">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TRIcarneiro | Ironman Triathlon Coaching</title>
+    <meta name="description" content="Get personalized Ironman triathlon coaching with TRIcarneiro. Tailored training plans to help you achieve your triathlon goals.">
+    <meta name="keywords" content="Ironman triathlon coaching, triathlon coach, triathlon training plans, personalized training, Ironman training">
 
-	<title>TRIcarneiro - Triathlon coaching</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet" >
-	<link href="css/bootstrap.m.css" rel="stylesheet" >
-	<link href="css/font-awesome.min.css" rel="stylesheet" >
+    <!-- CSS Links -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/owl.carousel.min.css">
+    <link rel="stylesheet" href="path/to/owl.theme.default.min.css">
 
-	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-	<link rel="shortcut icon" type="image/png" href="img/iconsite.png">
-	<script src="js/bootstrap.bundle.min.js"></script>
-	<link href="css/global.css" rel="stylesheet">
-	<link href="css/index.css" rel="stylesheet">
-	<link rel="stylesheet" href="path/to/owl.carousel.min.css">
-<link rel="stylesheet" href="path/to/owl.theme.default.min.css">
-<script src="path/to/jquery.min.js"></script>
-<script src="path/to/owl.carousel.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<style>
-	.modal-dialog {
-		  width: 640px;
-		  height:560px !important;
-		}
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/iconsite.png">
 
-	.modal-content {
-
-		/* 80% of window height */
-		height: 60%;
-		background-color:#BBD6EC;
-	}
-
-	.modal-header {
-		background-color: #337AB7;
-		padding:16px 16px;
-		color:#FFF;
-		border-bottom:2px dashed #337AB7;
-	 }
-	.modal-footer {
-
-		background-color: #337AB7;
-		padding:16px 16px;
-		color:#FFF;
-		border-bottom:2px dashed #337AB7;
-	 }
-
-.fa {
-  padding: 10px;
-  font-size: 20px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.divfix [class*="fa fa-"] {
-	margin: 0px 0px 0px 0px;
-	position: fixed;
-	z-index: 3000;
-	border-radius: 90px;
-	width: 40px;
-	height: 40px;
-	margin-top: 150px;
-	margin-bottom: 100px;
-	margin-right: 150px;
-	margin-left: 0px;
-}
-</style>
-
+    <!-- Inline CSS (Consider moving to external stylesheet if extensive) -->
+    <style>
+        .modal-dialog {
+            width: 640px;
+            height: 560px !important;
+        }
+        .modal-content {
+            height: 60%;
+            background-color: #BBD6EC;
+        }
+        .modal-header, .modal-footer {
+            background-color: #337AB7;
+            padding: 16px;
+            color: #FFF;
+            border-bottom: 2px dashed #337AB7;
+        }
+        .fa {
+            padding: 10px;
+            font-size: 20px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+        .fa-facebook { background: #3B5998; color: white; }
+        .fa-youtube { background: #bb0000; color: white; }
+        .fa-instagram { background: #125688; color: white; }
+        .divfix [class*="fa fa-"] {
+            position: fixed;
+            z-index: 3000;
+            border-radius: 90px;
+            width: 40px;
+            height: 40px;
+            margin: 150px 150px 100px 0;
+        }
+    </style>
 </head>
 <body>
 
@@ -693,9 +653,9 @@ inserir testimunhos
             </div>
           </section>
 
-          <section>
 
 <!-- Modal dos media-->
+          <section>
 <div id="myModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <!-- Modal dos media content-->
@@ -836,6 +796,7 @@ inserir testimunhos
 		    </div>
 		  </div>
 		</div>
+		</div>
 		</section>
 
 
@@ -874,6 +835,10 @@ $(document).ready(function() {
 });
 
 </script>
+<!-- JS Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+<script src="path/to/owl.carousel.min.js" defer></script>
+<script src="js/bootstrap.bundle.min.js" defer></script>
 
 </body>
 
