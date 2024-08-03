@@ -1,26 +1,4 @@
 
-.adven1i3{
-display:none;
-padding-top:46%;
- }
-.adven1i2{
-padding-top:310px;
- }
-.adven1i:hover .adven1i3{
-display:block;
-transition: 0.3s;
- }
-.adven1i:hover .adven1i2{
-display:none;
-transition: 0.3s;
- }
-
-.trip_1i .button{
-margin-top:10px;
- }
-.trip_1in{
-margin-top:32px;
- }
 /*********************adven_end****************/
 
 
@@ -32,46 +10,9 @@ border-radius:50% 0 0 50%;
 
 
 @media screen and (max-width : 767px){
-.center_h{
-padding-top:30px;
- }
-.desti2i{
-margin-top:8px;
-margin-bottom:8px;
- }
-.trip_1i{
-text-align:center;
-margin-top:5px;
-margin-bottom:5px;
- }
-.trip_1iir{
-margin-top:10px;
- }
 #trip{
 padding-left:0!important;
 padding-right:0!important;
- }
-#adven{
-padding-left:0!important;
-padding-right:0!important;
- }
-.adven1i{
-margin-top:8px;
-margin-bottom:8px;
- }
-.adven1i2 {
-padding-top: 280px;
-}
-
-.blog_h1rir{
-text-align:center;
-margin-top:15px;
- }
-.blog_h1rir p{
-text-align:left;
- }
-.blog_h1r{
-margin-top:15px;
  }
  }
 
@@ -83,83 +24,6 @@ margin-top:15px;
 #trip{
 padding-left:0!important;
 padding-right:0!important;
- }
-#adven{
-padding-left:0!important;
-padding-right:0!important;
- }
-.desti2i {
-padding:40px 20px!important;
- }
-.trip_1{
-padding-left:10px!important;
-padding-right:10px!important;
- }
-.trip_1iil span{
-font-size:18px!important;
- }
-
-.adven1i2{
-padding-top:390px;
- }
-.adven1i {
-margin-top:10px;
-margin-bottom:10px;
- }
-.blog_h1rir h5{
-font-size:16px;
- }
-.blog_h1rir p{
-font-size:14px;
- }
-.desti2i h5{
-font-size:12px;
- }
-.desti2i{
-padding:30px 15px!important;
- }
-.desti1l h1{
-font-size:26px;
- }
-.trip_1in{
-margin-top:28px;
- }
- }
-
-@media (min-width:992px) and (max-width:1200px) {
-.trip_1{
-padding-left:10px!important;
-padding-right:10px!important;
- }
-.trip_1iil span{
-font-size:18px!important;
- }
-.adven1i1 img{
-min-height:420px;
- }
-.desti2i h5{
-font-size:14px;
- }
-.desti2i{
-padding:30px 15px!important;
- }
-.desti1l h1{
-font-size:26px;
- }
-.trip_1in{
-margin-top:28px;
- }
- }
-
-@media (min-width:1201px) and (max-width:1360px) {
-.adven1i1 img{
-min-height:420px;
- }
-.desti2i h5{
-font-size:16px;
- }
-.desti2i{
-padding:30px 15px!important;
  }
  }
 
@@ -383,23 +247,16 @@ align-items: center;
 }
 
 .client-logo,
-.gallery-caption,
-.gallery-image:after,
-.gallery-image img,
 .price-table,
 .team-detail,
 .team-image:after,
 .work-caption,
 .work-image > img,
-.work-image:after,
-.post-thumbnail,
-.post-video,
-.post-images-slider {
+.work-image:after {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.module,
-.module-small {
+.module {
   position: relative;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -407,12 +264,6 @@ align-items: center;
 }
 
 /* Ensure the section takes full width and has a black background */
-.module-small.bg-dark.p-0 {
-  width: 100%;
-  background-color: #000;
-  padding: 0;
-  margin: 0;
-}
 
 /* Ensure the row and owl-carousel take full width */
 .client {
@@ -570,18 +421,12 @@ align-items: center;
 }
 
 .client-logo,
-.gallery-caption,
-.gallery-image:after,
-.gallery-image img,
 .price-table,
 .team-detail,
 .team-image:after,
 .work-caption,
 .work-image > img,
-.work-image:after,
-.post-thumbnail,
-.post-video,
-.post-images-slider {
+.work-image:after {
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -710,48 +555,12 @@ align-items: center;
 }
 
 /* Popup container */
-.popup {
-    display: none; /* Initially hidden */
-    position: fixed; /* Fixed position to cover the viewport */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    align-items: center; /* Center content vertically */
-    justify-content: center; /* Center content horizontally */
-    z-index: 1000; /* Ensure popup is on top of other content */
-}
 
 /* Popup content */
-.popup-content {
-    position: relative; /* Needed for positioning the button */
-    background-color: #fff; /* Background color of the popup */
-    border-radius: 8px; /* Rounded corners */
-    padding: 20px; /* Padding inside the popup */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
-}
 
 /* Popup image */
-.popup-image {
-    display: block;
-    margin: 0 auto; /* Center the image horizontally */
-    width: 100px;
-    height: 100px;
-}
 
 /* Popup button */
-.popup-button {
-    display: block;
-    margin: 10px auto 0; /* Margin at the bottom, centered */
-    background-color: orange; /* Button color */
-    color: #fff; /* Text color */
-    border: none; /* Remove default border */
-    padding: 10px 20px; /* Padding inside the button */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-radius: 5px; /* Rounded corners */
-}
 /* Ensure the section starts immediately with no padding or margin */
 #equipa {
   background-color: #000; /* Set background to black */
