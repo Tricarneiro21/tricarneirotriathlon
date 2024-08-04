@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.tricarneiro.com/index.html</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.tricarneiro.com/img/intrologo.png</image:loc>
+      <image:caption>Ultra Triathlon Ironman Coach</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.tricarneiro.com/img/aboutprofile.png</image:loc>
+      <image:caption>Ironman triathlon coach</image:caption>
+    </image:image>
+  </url>
+  <!-- Contact Page -->
+  <url>
+    <loc>https://www.tricarneiro.com/contacto.html</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tricarneiro.com/img/contact-image.jpg</image:loc>
+      <image:caption>Contact Page Image</image:caption>
+    </image:image>
+  </url>
+  <!-- Blog Page -->
+  <url>
+    <loc>https://www.tricarneiro.com/blog.html</loc>
+    <lastmod>2024-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tricarneiro.com/img/blog-image1.jpg</image:loc>
+      <image:caption>Blog Image 1 Caption</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.tricarneiro.com/img/blog-image2.jpg</image:loc>
+      <image:caption>Blog Image 2 Caption</image:caption>
+    </image:image>
+  </url>
+</urlset>
