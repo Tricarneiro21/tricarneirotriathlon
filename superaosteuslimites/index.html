@@ -15,21 +15,32 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            text-align: center; /* Centraliza o texto */
         }
         .title {
-            font-size: 40px;
+            font-size: 100px; /* Tamanho fixo para SUPERA */
             width: 80vw; /* 80% da largura da tela */
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            margin: 0; /* Remove margens padrão */
         }
         .subtitle {
-            font-size: 20px;
-            width: 50vw; /* 50% da largura da tela */
+            font-size: 5vw; /* Tamanho de fonte em vw para responsividade */
+            width: 80vw; /* A largura igual à da palavra SUPERA */
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 20px; /* Espaço extra entre os textos */
+            margin-top: 0; /* Remove espaço extra */
+            position: relative; /* Para posicionamento absoluto */
+            left: 0; /* Inicia na primeira letra de SUPERA */
+        }
+
+        /* Media Queries para telas pequenas */
+        @media (max-width: 600px) {
+            .title {
+                font-size: 12vw; /* Aumenta um pouco o tamanho em telas pequenas */
+            }
+            .subtitle {
+                font-size: 6vw; /* Aumenta um pouco o tamanho em telas pequenas */
+            }
         }
     </style>
 </head>
